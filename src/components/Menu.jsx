@@ -21,8 +21,6 @@ const Menu = () => {
     fetchPlaces();
   }, []);
 
-  console.log(menuItems);
-
   return (
     <div id="meals">
       {menuItems.map((meal) => {
